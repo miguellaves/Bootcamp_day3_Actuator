@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: 'beans'
+#    shutdown:
+#      enabled: true
+
